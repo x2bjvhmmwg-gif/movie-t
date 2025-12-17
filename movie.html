@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>연습 2</title>
     <link rel="stylesheet" type="text/css" href="common.css" />
     <style>
-    .home .id-card{
-            position: relative;        }
-        .home .id-card .id-card-img {
-            display: block;
-			width: 100%;
-			height: 300px;
-			object-fit: cover;
-			position: relative;
-			z-index: 0;}
         .home .id-card .detail {
-            position: absolute;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background-color: rgba(0, 0, 0, 0.6);
-			padding: 16px;
-			z-index: 1;        }
-        .home .id-card .detail h3 {
-            color: #FFF;
-			margin-bottom: 16px;        }
-        .home .id-card .detail p {
-            color: #FFF; }
+		padding: 16px;
+	}
+    .home .id-card .detail p {
+        color: #FFF;
+    }
+    .home .id-card .detail h2 {
+        color: #FFF;
+		font-size: 28px;
+		font-weight: 600;
+		margin-bottom: 16px;    }
+    .home .id-card .detail span{
+        margin: 0 16px;
+		padding: 10px;
+		border-radius: 10px;
+		background-color: #42B883;
+		color: #FFF;
+		font-size: 18px
+    }
+    .home .id-card .detail .featured-img{
+         display: block;
+		max-width: 200px;
+		margin-bottom: 16px;
+    }
+    .home .id-card .detail1 {
+        display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+        color: #ffffff;
+        background: none;}
     </style>
 </head>
 <body>
@@ -36,6 +45,22 @@
         <h1><span>AI</span>Study</h1>
         </a>
     </header>
-    
+    <main class="home">
+        <div class="id-card">
+            <div class="detail">
+                <h2>안녕 베일리<span>movie</span></h2>
+                <p>2019</p>
+                <p>미국,</p>
+                <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDEyMjFfMzQg/MDAxNjA4NTM0NzUyMjk3.VUyATzz7Q-92hjRdzmDuJRwlIyY6HnglmdUhokn_JpUg.al41AVhRAZMwJDFljQoAcGKSTGtyh1yhqOC9RjmIbA4g.JPEG.ttott_ttott/common%EF%BC%8D1.jpg?type=w800" alt="Movie Poster" class="featured-img"/>
+                <p>“함께라서 행복해” 환생만 벌써 5번째! 도무지 끝날 줄 모르는 ‘베일리’의 삶에 새로운 미션이 생겼다?! 바로 ‘이든’의 작은 베이비 ‘씨제이’를 돌보는 것. “옆에 있어줘서 고마워” 소꿉놀이도 해야 하고 위험한 곳에 들어가면 짖어서 알려줘야 하고, ‘씨제이’와 함께 해야 할 일이 너무나도 많이 남았는데 ‘씨제이’는 ‘베일리’와 ‘이든’의 곁을 떠나 도시로 향한다. 7년 후 ‘몰리’로 다시 태어난 ‘베일리’는 우여곡절 끝에 ‘씨제이’의 집으로 입양되고 ‘씨제이’가 행복할 때, 슬플 때, 외로울 때 항상 옆에 있어준다. “혼자 둬서 미안해” 주유소의 ‘빅독’으로 다시 태어난 ‘베일리’. ‘씨제이’를 만나기만을 기다리지만 우연히 만나게 된 ‘씨제이’는 ‘베일리’를 알아보지 못하고 떠나버린다. “내 인생은 온통 너야. 사랑해” 킁킁킁… 어디서 ‘씨제이’ 냄새 안나요? ‘맥스’로 환생한 ‘베일리’는 오직 일견단심 ‘씨제이’를 기다리던 중 유기견 입양소에서 드디어 ‘씨제이’를 다시 만나게 된다. 인생은 길고 견생은 짧다는데, 저 녀석을 끝까지 지켜줄 수 있을까?</p>
+            </div>
+            <hr>
+            <div class="detail1">
+                <h2>선택한 내용이 없습니다.</h2>
+                <a href="main.html"><p>돌아가기.</p>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
